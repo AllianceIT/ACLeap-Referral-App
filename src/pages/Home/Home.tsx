@@ -6,6 +6,7 @@ import ActiveReferrals from "../../components/ActiveReferrals";
 import ArchiveReferrals from "../../components/ArchiveReferrals";
 
 const Home = () => {
+
     return (
         <Main>
             <Container sx={{ height:'100vh',paddingTop: '24px', paddingBottom: '24px' }}>
@@ -16,7 +17,7 @@ const Home = () => {
                         </Grid>
                     </Grid>
                 </Card>
-                <Card variant="outlined" sx={{ padding: '16px', marginBottom: '24px'  }}>
+                {/* <Card variant="outlined" sx={{ padding: '16px', marginBottom: '24px'  }}>
                     <Grid container spacing={2}>
                     <Grid item sm={12} md={12} overflow={'auto'}>
                         <ActiveReferrals />
@@ -29,11 +30,10 @@ const Home = () => {
                         <ArchiveReferrals />
                         </Grid>
                     </Grid>
-                </Card>
+                </Card> */}
             </Container>
         </Main>
     )
 }
 
 export default Home
-
